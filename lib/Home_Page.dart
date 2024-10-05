@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       gameHasStarted = true;
     });
-    Timer.periodic(Duration(milliseconds: 12), (timer) {
+    Timer.periodic(Duration(milliseconds: 10), (timer) {
       // Check if dino hits the barrier
       if (detectCollision()) {
         gameOver = true;

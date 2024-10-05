@@ -20,9 +20,9 @@ class MyBarrier extends StatelessWidget {
       child: Container(
         width: MediaQuery.of(context).size.width * barrierWidth,
         height: MediaQuery.of(context).size.height * barrierHeight,
-        child: Image.asset('assets/images/cacti.png',
+        child: Image.asset('assets/images/gcac.png',
         fit: BoxFit.fill,),
-        color: Colors.brown,
+        color: Colors.transparent,
       ),
     );
   }

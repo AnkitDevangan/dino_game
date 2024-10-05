@@ -26,7 +26,7 @@ class MyDino extends StatelessWidget {
           child: Image.asset('assets/images/dino.png',
           fit: BoxFit.contain),
         ),
-        color: Colors.green,
+        color: Colors.transparent,
       ),
     );
   }
